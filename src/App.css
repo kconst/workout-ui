@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  background-color: dodgerblue;
+  opacity: .8;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.plate-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plate-list li {
+  line-height: 3;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0;
+  margin-left: -15px;
+  padding: 5px;
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+  color: #fff;
+  text-align: left;
+}
+
+.plate-25 {
+  background-color: red;
+}
+
+.plate-20 {
+  background-color: blue;
+}
+
+.plate-15 {
+  background-color: yellow;
+}
+
+.plate-10 {
+  background-color: green;
+}
+
+.plate-5,
+.plate-125 {
+  background-color: #ccc;
+}
