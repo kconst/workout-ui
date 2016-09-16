@@ -57,7 +57,7 @@ class BarbellWeights extends Component {
         element = (
             <ul className="plate-list">
                 {plates.map((plate, i) =>
-                    <li key={i} className={ 'plate-' + plate }>{ plate }</li>
+                    <li key={i} className={ 'plate-' + (plate + '').replace('.', 'p') }>{ plate }</li>
                 )}
             </ul>
         );
