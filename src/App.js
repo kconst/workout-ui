@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import BarbellWeights from './BarbellWeights.js';
+import PlatesSelect from './PlatesSelect.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -14,6 +15,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <PlatesSelect useImperial={ false }/>
+        
+        <hr/>
+        
         <input placeholder="total weight" onChange={ e => this.setState({weight: parseFloat(e.currentTarget.value) }) }></input>
         
         <BarbellWeights useImperial={ false } weight={ this.state.weight }/>
