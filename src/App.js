@@ -15,9 +15,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h2>Weight by Plates</h2>
+      
         <PlatesSelect useImperial={ false }/>
         
         <hr/>
+        
+        <h2>Weight by Total</h2>
         
         <input placeholder="total weight" onChange={ e => this.setState({weight: parseFloat(e.currentTarget.value) }) }></input>
         
