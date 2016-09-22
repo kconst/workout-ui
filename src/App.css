@@ -28,6 +28,15 @@ body {
   opacity: .8;
 }
 
+h2 {
+  color: whitesmoke;
+}
+
+hr {
+  border-color: black;
+  margin-top: 25px;
+}
+
 input {
   border: 1px solid black;
   border-radius: 2px;
