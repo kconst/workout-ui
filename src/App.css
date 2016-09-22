@@ -46,12 +46,12 @@ input {
   border: 1px solid black;
   display: inline-block;
   margin: 0;
-  margin-left: -15px;
+  margin-left: -20px;
   padding: 5px;
   height: 45px;
   width: 45px;
   border-radius: 45px;
-  color: #fff;
+  color: #000;
   text-align: left;
 }
 
