@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h2>Weight by Plates</h2>
+        <h1>Weight by Plates</h1>
       
         <PlatesSelect useImperial={ false }/>
         

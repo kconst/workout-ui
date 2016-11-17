@@ -6,13 +6,13 @@ class PlatesSelect extends Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
-            weight: 20
+            weight: this.props.useImperial ? 45 : 20
         }
     }
 
     componentWillMount() {
         this.setState({
-           plates: this.props.isImperial ? [2.5, 5, 10, 25, 45] : [2.5, 5, 10, 15, 20, 25]
+           plates: this.props.useImperial ? [2.5, 5, 10, 25, 45] : [0.5, 1, 2.5, 5, 10, 15, 20, 25]
         });
     }
 
