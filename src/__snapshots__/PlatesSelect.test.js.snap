@@ -1,0 +1,53 @@
+exports[`test renders correctly in default state 1`] = `
+<section
+  className="PlatesSelect">
+  <h3>
+    20
+  </h3>
+  <ul
+    className="plate-list" />
+  <ul
+    className="plate-list">
+    <li
+      className="plate-0p5"
+      onClick={[Function onClick]}>
+      0.5
+    </li>
+    <li
+      className="plate-1"
+      onClick={[Function onClick]}>
+      1
+    </li>
+    <li
+      className="plate-2p5"
+      onClick={[Function onClick]}>
+      2.5
+    </li>
+    <li
+      className="plate-5"
+      onClick={[Function onClick]}>
+      5
+    </li>
+    <li
+      className="plate-10"
+      onClick={[Function onClick]}>
+      10
+    </li>
+    <li
+      className="plate-15"
+      onClick={[Function onClick]}>
+      15
+    </li>
+    <li
+      className="plate-20"
+      onClick={[Function onClick]}>
+      20
+    </li>
+    <li
+      className="plate-25"
+      onClick={[Function onClick]}>
+      25
+    </li>
+  </ul>
+</section>
+`;
