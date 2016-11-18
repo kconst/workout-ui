@@ -1,0 +1,43 @@
+exports[`test renders correctly in default state 1`] = `
+<ul
+  className="plate-list">
+  <li
+    className="plate-25">
+    25
+  </li>
+  <li
+    className="plate-10">
+    10
+  </li>
+  <li
+    className="plate-5">
+    5
+  </li>
+</ul>
+`;
+
+exports[`test renders correctly in default state 2`] = `
+<ul
+  className="plate-list">
+  <li
+    className="plate-25">
+    25
+  </li>
+  <li
+    className="plate-25">
+    25
+  </li>
+  <li
+    className="plate-25">
+    25
+  </li>
+  <li
+    className="plate-25">
+    25
+  </li>
+  <li
+    className="plate-2p5">
+    2.5
+  </li>
+</ul>
+`;
