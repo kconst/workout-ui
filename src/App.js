@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import BarbellWeights from './BarbellWeights.js';
 import PlatesSelect from './PlatesSelect.js';
 import logo from './logo.svg';
-import './App.css';
+require('./App.scss');
 
 class App extends Component {
   constructor(props, context) {
