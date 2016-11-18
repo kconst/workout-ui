@@ -14,12 +14,18 @@ class BarbellWeights extends Component {
            weight: this.props.weight 
         });
     }
+    
+    componentWillUpdate() {
+        this.setState({
+           weight: this.props.weight 
+        });
+    }
 
     calcWeights(weight, isImperial) { 
         let weights = [],
             barbellWeight,
             available;
-
+console.warn(weight)
         if (isImperial) {
             available = [2.5, 5, 10, 25, 45].reverse();
             
@@ -52,10 +58,10 @@ class BarbellWeights extends Component {
         // const { todo, completeTodo, deleteTodo } = this.props;
 
         let element,
-            plates = this.calcWeights(this.props.weight);
+            plates = this.calcWeights(this.props.weight, this.state.useImperial);
 
         element = (
-            <ul className="plate-list">
+            <ul className={"plate-list"}>
                 {plates.map((plate, i) =>
                     <li key={i} className={ 'plate-' + (plate + '').replace('.', 'p') }>{ plate }</li>
                 )}
